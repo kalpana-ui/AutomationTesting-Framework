@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-11T22:02:40 IST" name="Suite" finished-at="2024-08-11T22:04:47 IST" duration-ms="127573">
+    <groups>
+    </groups>
+    <test started-at="2024-08-11T22:02:40 IST" name="Test" finished-at="2024-08-11T22:04:47 IST" duration-ms="127573">
+      <class name="com.Flipcarts.test.RegisterTest">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:com.Flipcarts.test.RegisterTest@42a48628]" started-at="2024-08-11T22:02:40 IST" name="startUp" finished-at="2024-08-11T22:02:49 IST" duration-ms="8433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="registerWithValidFields()[pri:1, instance:com.Flipcarts.test.RegisterTest@42a48628]" started-at="2024-08-11T22:02:49 IST" name="registerWithValidFields" finished-at="2024-08-11T22:02:51 IST" duration-ms="2218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithValidFields -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.Flipcarts.test.RegisterTest@42a48628]" started-at="2024-08-11T22:02:51 IST" name="quitBrowser" finished-at="2024-08-11T22:02:51 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:com.Flipcarts.test.RegisterTest@42a48628]" started-at="2024-08-11T22:02:51 IST" name="startUp" finished-at="2024-08-11T22:02:57 IST" duration-ms="5752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="registerWithValidFieldsAndSubscribe()[pri:2, instance:com.Flipcarts.test.RegisterTest@42a48628]" started-at="2024-08-11T22:02:57 IST" name="registerWithValidFieldsAndSubscribe" finished-at="2024-08-11T22:02:59 IST" duration-ms="2476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithValidFieldsAndSubscribe -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.Flipcarts.test.RegisterTest@42a48628]" started-at="2024-08-11T22:02:59 IST" name="quitBrowser" finished-at="2024-08-11T22:03:00 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:com.Flipcarts.test.RegisterTest@42a48628]" started-at="2024-08-11T22:03:00 IST" name="startUp" finished-at="2024-08-11T22:03:07 IST" duration-ms="7425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="registerWithoutAgreeingToPrivacyPolicy()[pri:3, instance:com.Flipcarts.test.RegisterTest@42a48628]" started-at="2024-08-11T22:03:07 IST" name="registerWithoutAgreeingToPrivacyPolicy" finished-at="2024-08-11T22:03:09 IST" duration-ms="2009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithoutAgreeingToPrivacyPolicy -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.Flipcarts.test.RegisterTest@42a48628]" started-at="2024-08-11T22:03:09 IST" name="quitBrowser" finished-at="2024-08-11T22:03:10 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:com.Flipcarts.test.RegisterTest@42a48628]" started-at="2024-08-11T22:03:10 IST" name="startUp" finished-at="2024-08-11T22:03:18 IST" duration-ms="8270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="registerWithoutEnteringAnyField()[pri:4, instance:com.Flipcarts.test.RegisterTest@42a48628]" started-at="2024-08-11T22:03:18 IST" name="registerWithoutEnteringAnyField" finished-at="2024-08-11T22:03:19 IST" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithoutEnteringAnyField -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.Flipcarts.test.RegisterTest@42a48628]" started-at="2024-08-11T22:03:19 IST" name="quitBrowser" finished-at="2024-08-11T22:03:20 IST" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.Flipcarts.test.RegisterTest -->
+      <class name="com.Flipcarts.test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Flipcarts.test.LoginTest@34123d65]" started-at="2024-08-11T22:03:20 IST" name="setup" finished-at="2024-08-11T22:03:28 IST" duration-ms="7888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidUserNameAndValidPassword1()[pri:1, instance:com.Flipcarts.test.LoginTest@34123d65]" started-at="2024-08-11T22:03:28 IST" name="loginWithValidUserNameAndValidPassword1" finished-at="2024-08-11T22:03:30 IST" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUserNameAndValidPassword1 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.Flipcarts.test.LoginTest@34123d65]" started-at="2024-08-11T22:03:30 IST" name="quitBrowser" finished-at="2024-08-11T22:03:34 IST" duration-ms="3473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Flipcarts.test.LoginTest@34123d65]" started-at="2024-08-11T22:03:34 IST" name="setup" finished-at="2024-08-11T22:03:46 IST" duration-ms="11754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidUserNameAndInvalidPassword()[pri:2, instance:com.Flipcarts.test.LoginTest@34123d65]" started-at="2024-08-11T22:03:46 IST" name="loginWithValidUserNameAndInvalidPassword" finished-at="2024-08-11T22:03:47 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUserNameAndInvalidPassword -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.Flipcarts.test.LoginTest@34123d65]" started-at="2024-08-11T22:03:47 IST" name="quitBrowser" finished-at="2024-08-11T22:03:50 IST" duration-ms="3390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Flipcarts.test.LoginTest@34123d65]" started-at="2024-08-11T22:03:50 IST" name="setup" finished-at="2024-08-11T22:03:58 IST" duration-ms="8167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithInvalidUserNameAndValidPassword()[pri:3, instance:com.Flipcarts.test.LoginTest@34123d65]" started-at="2024-08-11T22:03:58 IST" name="loginWithInvalidUserNameAndValidPassword" finished-at="2024-08-11T22:04:00 IST" duration-ms="1580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.Flipcarts.test.LoginTest@34123d65]" started-at="2024-08-11T22:04:00 IST" name="quitBrowser" finished-at="2024-08-11T22:04:03 IST" duration-ms="3511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Flipcarts.test.LoginTest@34123d65]" started-at="2024-08-11T22:04:03 IST" name="setup" finished-at="2024-08-11T22:04:11 IST" duration-ms="8153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithInvalidUserNameAndInvalidPassword()[pri:4, instance:com.Flipcarts.test.LoginTest@34123d65]" started-at="2024-08-11T22:04:11 IST" name="loginWithInvalidUserNameAndInvalidPassword" finished-at="2024-08-11T22:04:12 IST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUserNameAndInvalidPassword -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.Flipcarts.test.LoginTest@34123d65]" started-at="2024-08-11T22:04:12 IST" name="quitBrowser" finished-at="2024-08-11T22:04:17 IST" duration-ms="4379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.Flipcarts.test.LoginTest -->
+      <class name="com.Flipcarts.test.SeearchTest">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:com.Flipcarts.test.SeearchTest@3e694b3f]" started-at="2024-08-11T22:04:17 IST" name="startUp" finished-at="2024-08-11T22:04:24 IST" duration-ms="6960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.Flipcarts.test.SeearchTest@3e694b3f]" started-at="2024-08-11T22:04:24 IST" name="verifySearchWithValidProduct" finished-at="2024-08-11T22:04:28 IST" duration-ms="4406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.Flipcarts.test.SeearchTest@3e694b3f]" started-at="2024-08-11T22:04:28 IST" name="quitBrowser" finished-at="2024-08-11T22:04:29 IST" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:com.Flipcarts.test.SeearchTest@3e694b3f]" started-at="2024-08-11T22:04:29 IST" name="startUp" finished-at="2024-08-11T22:04:38 IST" duration-ms="8189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.Flipcarts.test.SeearchTest@3e694b3f]" started-at="2024-08-11T22:04:38 IST" name="verifySearchWithInvalidProduct" finished-at="2024-08-11T22:04:39 IST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.Flipcarts.test.SeearchTest@3e694b3f]" started-at="2024-08-11T22:04:39 IST" name="quitBrowser" finished-at="2024-08-11T22:04:39 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:com.Flipcarts.test.SeearchTest@3e694b3f]" started-at="2024-08-11T22:04:39 IST" name="startUp" finished-at="2024-08-11T22:04:45 IST" duration-ms="5887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="verifySearchWithoutAnyProduct()[pri:3, instance:com.Flipcarts.test.SeearchTest@3e694b3f]" started-at="2024-08-11T22:04:45 IST" name="verifySearchWithoutAnyProduct" finished-at="2024-08-11T22:04:47 IST" depends-on-methods="com.Flipcarts.test.SeearchTest.verifySearchWithInvalidProduct" duration-ms="1407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithoutAnyProduct -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.Flipcarts.test.SeearchTest@3e694b3f]" started-at="2024-08-11T22:04:47 IST" name="quitBrowser" finished-at="2024-08-11T22:04:47 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.Flipcarts.test.SeearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

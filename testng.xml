@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.listeners.MyListeners"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Flipcarts.test.RegisterTest">
+      <methods>
+			 <include name="registerWithValidFields"/>
+		     <include name="registerWithValidFieldsAndSubscribe"/>
+		     <include name="registerWithoutAgreeingToPrivacyPolicy"/>
+		     <include name="registerWithoutEnteringAnyField"/> 
+		  </methods>
+      </class>
+      <class name="com.Flipcarts.test.LoginTest">
+       <methods>
+			    <include name="loginWithValidUserNameAndValidPassword1"/>
+		  		<include name="loginWithValidUserNameAndInvalidPassword"/>
+		 		<include name="loginWithInvalidUserNameAndValidPassword"/>
+		 		<include name="loginWithInvalidUserNameAndInvalidPassword"/>
+		  </methods>
+      </class>
+      <class name="com.Flipcarts.test.SeearchTest">
+        <methods>
+				  <include name="verifySearchWithValidProduct"/>
+				  <include name="verifySearchWithInvalidProduct"/>
+				  <include name="verifySearchWithoutAnyProduct"/>
+			  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
