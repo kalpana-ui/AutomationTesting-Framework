@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.BaseClass.base;
@@ -23,6 +24,7 @@ public class LoginTest extends base { //only one time use extend keyword in clas
 	WebDriver driver ;//Gobal Variable declariation
 	
 	@BeforeMethod
+	@Parameters("browserName")
 	public void setup() {
 		
 		driver = initializeBrowserAndAppllicationLaunch();

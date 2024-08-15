@@ -23,7 +23,8 @@ public class base {
 		prop = new Properties();
 		prop.load(fis);
 		System.out.println(prop.getProperty("browserName"));
-	}
+		}
+	
 	
 	public WebDriver initializeBrowserAndAppllicationLaunch() {
 		
@@ -37,6 +38,9 @@ public class base {
 		}
 		else if(browserName.equals("edge")) {
 			driver = new EdgeDriver();
+		}
+		else {
+			System.out.println("Provide a valid browser name");
 		}
 		
 		driver = new ChromeDriver();
